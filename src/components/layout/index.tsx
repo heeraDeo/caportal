@@ -8,6 +8,7 @@ export default function Layout({children}:any) {
         <Header/>
         {children}
         <Footer/>
+        Bv:29.10.22
     </div>
   )
 }
