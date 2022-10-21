@@ -7,6 +7,7 @@ import ContactUs from './contactus'
 import AllProjects from '../allprojects/allprojects'
 import ProjectDetails from '../projectdetails/projectdetails'
 
+
 export default function index() {
   return (
     <div>
