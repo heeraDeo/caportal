@@ -1,6 +1,25 @@
+import OurLatestWorks from './ourlatestworks'
+import IndustryLeading from './industryleading'
+import WhoWeAre from './whoweare'
+import Features from './features'
+import Testimonials from './testimonials'
+import ContactUs from './contactus'
+import AllProjects from '../allprojects/allprojects'
+import ProjectDetails from '../projectdetails/projectdetails'
 
-export default function Home() {
+
+export default function index() {
   return (
-    <div>Home</div>
+    <div>
+     {/* <OurLatestWorks/>
+     <IndustryLeading/>
+     <Features/>
+     <WhoWeAre/>
+     <Testimonials/>
+     <ContactUs/> */}
+     {/* <AllProjects/> */}
+     <ProjectDetails/>
+
+    </div>
   )
 }
