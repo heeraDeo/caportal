@@ -77,9 +77,9 @@ const navigation = {
   ],
   pages: [
     { name: 'Industries', href: '#' },
-    { name: 'Success Stories', href: '#' },
-    { name: 'About', href: '#' },
-    { name: 'Contact Us', href: '#' },
+    { name: 'Success Stories', href: '/blog' },
+    { name: 'About', href: '/aboutus' },
+    { name: 'Contact Us', href: '/contactus' },
   ],
 }
 
@@ -171,7 +171,7 @@ export default function Header() {
                           {category.featured.map((item) => (
                             <div key={item.name} className="group relative text-sm">
                               <div className="aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-gray-100 group-hover:opacity-75">
-                                <img src={item.imageSrc} alt={item.imageAlt} className="object-cover object-center" />
+                                <Image src={item.imageSrc} alt={item.imageAlt} height={200} width={300} className="object-cover object-center" />
                               </div>
                               <a href={item.href} className="mt-6 block font-medium text-gray-900">
                                 <span className="absolute inset-0 z-10" aria-hidden="true" />

@@ -4,22 +4,17 @@ import WhoWeAre from './whoweare'
 import Features from './features'
 import Testimonials from './testimonials'
 import ContactUs from './contactus'
-import AllProjects from '../allprojects/allprojects'
-import ProjectDetails from '../projectdetails/projectdetails'
 
 
 export default function index() {
   return (
     <div>
-     {/* <OurLatestWorks/>
+     <OurLatestWorks/>
      <IndustryLeading/>
      <Features/>
      <WhoWeAre/>
-     <Testimonials/>
-     <ContactUs/> */}
-     {/* <AllProjects/> */}
-     <ProjectDetails/>
-
+     <Testimonials/> 
+     <ContactUs/>
     </div>
   )
 }
