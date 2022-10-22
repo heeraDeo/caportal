@@ -2,7 +2,7 @@ import Image from "next/image";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import images from "../../../public/images";
-import Link from "next/link";
+import Link from 'next/link'
 
 const responsive = {
     desktop: {
@@ -58,7 +58,7 @@ export default function OurLatestWorks(props) {
                                             src={images.work1}
                                             alt="Picture of the author"
                                             className="object-cover rounded-lg cursor-pointer"
-                                            width={300}
+                                            width={400}
                                             height={400}
                                         />
                                         <span className="latestworktext">
@@ -72,7 +72,7 @@ export default function OurLatestWorks(props) {
                                             src={images.work2}
                                             alt="Picture of the author"
                                             className="object-cover rounded-lg cursor-pointer pb-3"
-                                            width={300}
+                                            width={400}
                                             height={400}
                                         />
                                         <span className="latestworktext">
@@ -86,7 +86,7 @@ export default function OurLatestWorks(props) {
                                             src={images.work3}
                                             alt="Picture of the author"
                                             className="object-cover rounded-lg cursor-pointer"
-                                            width={300}
+                                            width={400}
                                             height={400}
                                         />
                                         <span className="latestworktext">
@@ -100,7 +100,7 @@ export default function OurLatestWorks(props) {
                                             src={images.work4}
                                             alt="Picture of the author"
                                             className="object-cover rounded-lg cursor-pointer"
-                                            width={300}
+                                            width={400}
                                             height={400}
                                         />
                                         <span className="latestworktext">
@@ -115,7 +115,7 @@ export default function OurLatestWorks(props) {
                                             src={images.work5}
                                             alt="Picture of the author"
                                             className="object-cover rounded-lg cursor-pointer"
-                                            width={300}
+                                            width={400}
                                             height={400}
                                         />
                                         <span className="latestworktext">
@@ -130,7 +130,7 @@ export default function OurLatestWorks(props) {
                                             src={images.work6}
                                             alt="Picture of the author"
                                             className="object-cover rounded-lg cursor-pointer mt-3"
-                                            width={300}
+                                            width={400}
                                             height={400}
                                         />
                                         <span className="latestworktext">
@@ -140,17 +140,18 @@ export default function OurLatestWorks(props) {
                                 </div>
                             </Carousel>
                             <div className="flex justify-center mt-10">
-                                <button
-                                    type="submit"
-                                    className="group relative flex justify-center border border-transparent hover:ml-3 transition-all bg-[#012970] py-2 px-4 text-sm font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                                <Link  href="/allproject"                                    
+                                    
                                 >
+                                    <span className="group relative cursor-pointer flex justify-center border border-transparent hover:ml-3 transition-all bg-[#012970] py-2 px-4 text-sm font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
                                     View More Project
                                     <span className=" inset-y-0 left-0 flex items-center pl-3">
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                                             <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
                                         </svg>
                                     </span>
-                                </button>
+                                    </span>
+                                </Link>
                             </div>
                         </div>
                         {/* <span className="latestworkimage">

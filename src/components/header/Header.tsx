@@ -77,9 +77,9 @@ const navigation = {
   ],
   pages: [
     { name: 'Industries', href: '#' },
-    { name: 'Success Stories', href: '#' },
-    { name: 'About', href: '#' },
-    { name: 'Contact Us', href: '#' },
+    { name: 'Success Stories', href: '/blog' },
+    { name: 'About', href: '/aboutus' },
+    { name: 'Contact Us', href: '/contactus' },
   ],
 }
 
