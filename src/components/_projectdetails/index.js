@@ -17,19 +17,19 @@ function _Projectdetails() {
             <div className="text-start">
               <h1 className="text-2xl font-extrabold tracking-wide">Heading</h1>
               <p className="text-[10px]">
-                is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever
+                {`is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the  standard dummy text ever
                 since the 1500s, when an unknown printer took a galley of type
-                and scrambled it to make a type specimen book.
+                and scrambled it to make a type specimen book.`}
               </p>
             </div>
             <div className="text-start">
               <h1 className="text-2xl font-extrabold tracking-wide">Heading</h1>
               <p className="text-[10px]">
-                is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever
+                {`is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the  standard dummy text ever
                 since the 1500s, when an unknown printer took a galley of type
-                and scrambled it to make a type specimen book.
+                and scrambled it to make a type specimen book.`}
               </p>
             </div>
             <div className="text-start">
@@ -37,10 +37,11 @@ function _Projectdetails() {
                 Heading
               </h1>
               <p className="text-[10px]">
-                is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever
+                {`is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the  standard dummy text ever
                 since the 1500s, when an unknown printer took a galley of type
-                and scrambled it to make a type specimen book.
+                and scrambled it to make a type specimen book.`}
+                {/* industry`&apos`s */}
               </p>
             </div>
             <div className="text-start py-8 flex">
