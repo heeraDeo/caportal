@@ -12,7 +12,11 @@ import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
+import Image from "next/image";
 import AnnouncementIcon from "@mui/icons-material/Announcement";
+import images from "../../../public/images";
+// import { colors } from "@mui/material";
+import colors from "../../constants/colors"
 
 const pages = ["Products", "Pricing", "Blog", "login", "signup"];
 
@@ -22,10 +26,10 @@ export default function Header() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
 
-  const handleOpenNavMenu = (event) => {
+  const handleOpenNavMenu = (event:any) => {
     setAnchorElNav(event.currentTarget);
   };
-  const handleOpenUserMenu = (event) => {
+  const handleOpenUserMenu = (event:any) => {
     setAnchorElUser(event.currentTarget);
   };
 
@@ -39,11 +43,18 @@ export default function Header() {
 
   return (
     <div className="">
-      <AppBar position="static" style={{ background: "#f8fafd" }}>
+      <AppBar position="static" style={{ background:colors.blue }}>
         <Container maxWidth="lg">
           <Toolbar disableGutters>
-            <AdbIcon
+            {/* <AdbIcon
               sx={{ display: { xs: "none", md: "flex" }, mr: 1, color: "red" }}
+            /> */}
+            <Image
+              className="rounded-md w-full h-full"
+              src={images.headerlogo}
+              alt="Picture of the author"
+              width={190}
+              height={80}
             />
             <Typography
               variant="h6"
@@ -60,7 +71,7 @@ export default function Header() {
                 textDecoration: "none",
               }}
             >
-              myITR
+          
             </Typography>
 
             <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -108,7 +119,7 @@ export default function Header() {
                           variant="contained"
                         >
                           {" "}
-                          <span className="text-[blue]">{page}</span>
+                          <span className="text-[#cbcbe1]">{page}</span>
                         </Button>
                         
                       </>

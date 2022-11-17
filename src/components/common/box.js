@@ -6,7 +6,7 @@ import { deepOrange, deepPurple } from '@mui/material/colors';
     return(
         <div>
             <div className="flex flex-col items-center justify-center">
-<div><Avatar sx={{ bgcolor: deepOrange[500] }}>N</Avatar></div>
+<div className='mb-2'><Avatar sx={{ bgcolor: deepOrange[500] }}>N</Avatar></div>
 <div className="text-[#858181] text-center  w-40 sm:w-44">{props.title}</div>
 </div>
         </div>
