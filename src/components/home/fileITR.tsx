@@ -8,8 +8,8 @@ export default function FileITR(){
     return(
         <div className="sm:flex sm:justify-center">
           <Card
-            imgwidth={200}
-            imgheight={120}
+            imgwidth={210}
+            imgheight={130}
             title={"Start For Free"}
             padding={"12px 25px"}
             bgcolor={"#377dff"}
@@ -17,10 +17,10 @@ export default function FileITR(){
             image={images.headerimg1}
             paragraphtext={"Get acknowledgment (ITR-V) in 10 minutes"}
           />
-          <div className="my-14 sm:my-0">
+          <div className="my-14 sm:my-0 border-x">
             <Card
-              imgwidth={200}
-              imgheight={120}
+              imgwidth={210}
+              imgheight={130}
               title={"Start Now"}
               padding={"12px 25px"}
               bgcolor={"#00c9a7"}
@@ -33,8 +33,8 @@ export default function FileITR(){
 
           <Card
             image={images.headerimg3}
-            imgwidth={200}
-            imgheight={120}
+            imgwidth={210}
+            imgheight={130}
             title={"Start Now"}
             padding={"12px 25px"}
             bgcolor={"#00c9a7"}

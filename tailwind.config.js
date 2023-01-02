@@ -1,3 +1,5 @@
+const { Certificate } = require('crypto');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -7,6 +9,11 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily:{
+      bb:['Poppins','sans-serif'],
+    Certificate:['certificate'],
+    Abril:['Abril Fatface', 'cursive']
+    }
   },
   plugins: [],
 }

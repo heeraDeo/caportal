@@ -1,6 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@500&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* @font-face {
+  font-family: 'certificate';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('certificate'), url(../../public/assets/fonts/certificate.ttf) format('ttf');
+} */
+@font-face {
+
+  font-family: "certificate";
+
+  font-style: normal;
+
+  font-weight: 400;
+
+  font-display: swap;
+
+  src: local("certificate"), url(../../public/assets/fonts/certificate.ttf) format("truetype");
+
+}
+
 html,
 body {
   padding: 0;
@@ -22,6 +46,7 @@ a {
   html {
     color-scheme: dark;
   }
+
   body {
     color: white;
     background: black;

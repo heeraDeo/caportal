@@ -5,7 +5,7 @@ import Header from './Header'
 export default function Layout({children}:any) {
   return (
     <div>
-        <Header/>
+        {/* <Header/> */}
         {children}
         <Footer/>
         Bv:29.10.22

@@ -6,7 +6,7 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 import PersonIcon from '@mui/icons-material/Person';
 export default function Footer() {
   return (
-    <div className=" flex justify-evenly">
+    <div className=" flex justify-evenly pr-4 mt-14">
       <div className=" grid  grid-cols-2  sm:grid sm:grid-cols-5 sm:w-[1140px] justify-evenly gap-x-2 gap-y-8 ml-5 ">
         <div className="col-span-2 sm:col-span-1 pr-2 ">
           <Image

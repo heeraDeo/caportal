@@ -7,8 +7,8 @@ import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 function Card(props) {
   return (
-    <div>
-      <div className=" flex flex-col justify-center items-center  px-12 sm:w-[380px]">
+ 
+      <div className=" flex flex-col justify-center items-center  px-8 sm:w-[350px]">
         <Image
           alt="calive"
           className="transform transition-all hover:scale-90"
@@ -17,10 +17,10 @@ function Card(props) {
           height={props.imgheight}
         />
 
-        <div className="text-2xl font-semibold tracking-wide py-4 sm:text-3xl text-center">
+        <div className="text-2xl font-semibold   py-4 sm:text-[28px] text-center">
           {props.headertext}
         </div>
-        <div className="text-base tracking-wider  text-[#858181] text-center ">
+        <div className="text-[16px] tracking-wide  text-[#858181] text-center ">
           {props.paragraphtext}
         </div>
         <Button
@@ -42,12 +42,7 @@ function Card(props) {
           </div>
         </Button>
 
-        <div className="text-base py-8 text-[#858181]">
-          {/* <ul className="none">
-            <li> <CheckCircleOutlineIcon style={{backgroundColor:"red"}}/>Upload Form 16 and E-file</li>
-            <li>Review Income-tax records before filing</li>
-            <li>Easy step-wise process</li>
-          </ul> */}
+        <div className="text-base py-8 text-[#858181] ">
           <div className="flex item-start  pb-2">
             <div>
               <CheckCircleIcon
@@ -78,7 +73,7 @@ function Card(props) {
           </div>
         </div>
       </div>
-    </div>
+  
   );
 }
 export default Card;
